@@ -1,0 +1,126 @@
+.swiper-container{
+	overflow: hidden;
+	position: relative;
+	border-radius: 6px;
+	margin-bottom: 30px;
+}
+
+.swiper-button-next {
+	position: absolute;
+}
+
+.swiper-button-prev {
+	position: absolute;
+}
+
+/* .swiper-slide {
+	Center slide text vertically 
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+} */
+
+.swiper-slide img {
+	width: -webkit-fill-available;
+	border-radius: 6px;
+}
+
+.autoplay {
+	position: absolute;
+	color: #000;
+	font: 100px/100% arial, sans-serif;
+	right: 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	top: 15px;
+	width: auto;
+	height: auto;
+	z-index: 999;
+	opacity: 0.4;
+	transition: opacity .1s ease-in, transform .1s ease-out;
+	animation: fade_close 3s ease-out;
+}
+
+@keyframes fade_close {
+	0% {
+		opacity: 0.8;
+	}
+
+	50% {
+		opacity: 0.8;
+	}
+
+	to {
+		opacity: 0.4;
+	}
+}
+
+.autoplay:active {
+	transform: scale(0.8);
+}
+
+.stop {
+	right: 15px;
+}
+
+.play {
+	right: 90px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	background-color: var(--yellow);
+	border-radius: 50%;
+	color: #223040;
+	width: 40px;
+	height: 40px;
+}
+.swiper-button-prev{
+	transform: translateX(-65px);
+	opacity: 0;
+	transition: .3s;
+}
+.swiper-button-next{
+	transform: translateX(65px);
+	opacity: 0;
+	transition: .3s;
+}
+.swiper-container:hover .swiper-button-prev{
+	transform: translateX(0);
+	opacity: 1;
+	transition: .3s;
+}
+.swiper-container:hover .swiper-button-next{
+	transform: translateX(0);
+	opacity: 1;
+	transition: .3s;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+	background-color: var(--yellow);
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+	content: '';
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-prev:after {
+	content: '';
+}
+

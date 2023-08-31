@@ -1,0 +1,118 @@
+.swiper-products {
+  width: 100%;
+  overflow: hidden;
+}
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  
+ Center slide text vertically
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+} */
+.swiper-button-nextt,
+.swiper-button-prevv,
+.swiper-button-nexttt,
+.swiper-button-prevvv,
+.swiper-button-nextttt,
+.swiper-button-prevvvv,
+.swiper-button-prevvvvv,
+.swiper-button-nexttttt,
+.swiper-button-nextttttt,
+.swiper-button-prevvvvvv,
+.swiper-button-nexttttttt,
+.swiper-button-prevvvvvvv {
+  font-size: 20px;
+  border: none;
+  color: #4e4e4e;
+  background-color: transparent;
+  transition: .3s;
+}
+
+.swiper-button-prevv:hover,
+.swiper-button-prevvv:hover,
+.swiper-button-prevvvv:hover,
+.swiper-button-prevvvvv:hover,
+.swiper-button-prevvvvvv:hover,
+.swiper-button-prevvvvvvv:hover{
+  color: #fdda06;
+  transition: .3s;
+}
+.swiper-button-nextt:hover,
+.swiper-button-nexttt:hover,
+.swiper-button-nextttt:hover,
+.swiper-button-nexttttt:hover,
+.swiper-button-nextttttt:hover,
+.swiper-button-nexttttttt:hover{
+  color: #fdda06;
+  transition: .3s;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-nexttt,
+.swiper-button-prevvv,
+.swiper-button-nextttt,
+.swiper-button-prevvvv,
+.swiper-button-nextttttt,
+.swiper-button-prevvvvvv,
+.swiper-button-nexttttttt,
+.swiper-button-prevvvvvvv {
+	content: '';
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-nexttt,
+.swiper-button-prevvv,
+.swiper-button-nextttttt,
+.swiper-button-prevvvvvv,
+.swiper-button-nexttttttt,
+.swiper-button-prevvvvvvv {
+	content: '';
+}
+.head-swiper-products{
+  display: flex;
+  justify-content: space-between;
+}
+.swiper-button-nextt,
+.swiper-button-prevv,
+.swiper-button-nexttt,
+.swiper-button-prevvv,
+.swiper-button-nextttt,
+.swiper-button-prevvvv,
+.swiper-button-nexttttt,
+.swiper-button-prevvvvv,
+.swiper-button-nextttttt,
+.swiper-button-prevvvvvv,
+.swiper-button-nexttttttt,
+.swiper-button-prevvvvvvv{
+  opacity: 1;
+  transform: translate(0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-swiper-products{
+  font-size: calc(1.275rem + .3vw);
+  margin-bottom: 20px;
+}
+.btn-swiper-products{
+  display: flex;
+  gap: 10px;
+}
+.all-swiper{
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
